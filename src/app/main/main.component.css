@@ -1,0 +1,43 @@
+h1 {
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: left;
+    color: #F5F5DC;
+}
+
+h2 {
+    text-align: left;
+    color: #F5F5DC;
+}
+
+.input-container {
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 200px;
+    margin-right: 200px;
+    display: none;
+}
+
+button {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    background-color: #333;
+    color: white;
+    border: none;
+}
+
+.hint {
+    padding: 1px;
+    padding-top: 80px;
+    margin: 0px;
+    font-size: 30px;
+    pointer-events: none;
+    color: #999;
+}
+
+body {
+    background-color: #333;
+}

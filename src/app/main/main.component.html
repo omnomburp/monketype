@@ -1,0 +1,6 @@
+<h1>{{title}}</h1>
+<button #myButton (click)="startGame()">Click to Start</button>
+<div #myInput class="input-container">
+    <h2>{{timer}}</h2>
+    <span *ngFor = "let char of words.split('')" #hint class="hint">{{char}}</span>
+</div>
